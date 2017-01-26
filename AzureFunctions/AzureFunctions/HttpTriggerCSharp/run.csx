@@ -2,7 +2,7 @@
 
 public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
 {
-    log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}");
+    log.Info($"ILLUMINATIC# HTTP trigger function processed a request. RequestUri={req.RequestUri}ILLUMINATI");
 
     // parse query parameter
     string name = req.GetQueryNameValuePairs()
